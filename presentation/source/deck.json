@@ -14,9 +14,9 @@
     "trap",
     "cutoff",
     "found",
-    "gb-setup",
-    "gb-cutoff",
-    "gb-found",
+    "lr-setup",
+    "lr-cutoff",
+    "lr-found",
     "cmp-side",
     "cmp-table",
     "cmp-verdict",
@@ -36,11 +36,11 @@
       "start": "trap"
     },
     "s4": {
-      "description": "Gradient Boosting: the same crowd, undersampling, cut-off 0.63 and the test results",
-      "start": "gb-setup"
+      "description": "Logistic Regression: the same crowd, undersampling, cut-off 0.57 and the test results",
+      "start": "lr-setup"
     },
     "s5": {
-      "description": "Comparison: XGBoost, Gradient Boosting and Random Forest almost tie, XGBoost wins on speed, and the data sets the limit",
+      "description": "Comparison: XGBoost ranks best with fewer false alarms than Logistic Regression, and the data sets the limit",
       "start": "cmp-side"
     },
     "s6": {
