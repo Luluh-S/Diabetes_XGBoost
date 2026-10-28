@@ -1,0 +1,62 @@
+{
+  "v": 4,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-28T09:30:00Z"
+  },
+  "lists": "css",
+  "title": "Find the 30",
+  "order": [
+    "cover",
+    "crowd",
+    "stairs",
+    "feel",
+    "trap",
+    "cutoff",
+    "found",
+    "gb-setup",
+    "gb-cutoff",
+    "gb-found",
+    "cmp-side",
+    "cmp-table",
+    "cmp-verdict",
+    "closing"
+  ],
+  "sections": {
+    "s1": {
+      "description": "Cover: 200 people, 30 with diabetes. Can survey answers find them?",
+      "start": "cover"
+    },
+    "s2": {
+      "description": "EDA: meet the crowd, how risk stacks up, and why no single answer finds them",
+      "start": "crowd"
+    },
+    "s3": {
+      "description": "XGBoost: the accuracy trap, making the 30 count, and the test results",
+      "start": "trap"
+    },
+    "s4": {
+      "description": "Gradient Boosting: the same crowd, undersampling, cut-off 0.63 and the test results",
+      "start": "gb-setup"
+    },
+    "s5": {
+      "description": "Comparison: a tie on scores, XGBoost wins on speed, and the data sets the limit",
+      "start": "cmp-side"
+    },
+    "s6": {
+      "description": "Thank you and questions",
+      "start": "closing"
+    }
+  },
+  "faces": {
+    "inter-tight": {
+      "family": "Inter Tight",
+      "href": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    },
+    "inter": {
+      "family": "Inter",
+      "href": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    }
+  },
+  "designSystems": []
+}
