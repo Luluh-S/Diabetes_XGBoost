@@ -40,7 +40,7 @@
       "start": "gb-setup"
     },
     "s5": {
-      "description": "Comparison: a tie on scores, XGBoost wins on speed, and the data sets the limit",
+      "description": "Comparison: XGBoost, Gradient Boosting and Random Forest almost tie, XGBoost wins on speed, and the data sets the limit",
       "start": "cmp-side"
     },
     "s6": {
